@@ -1,5 +1,7 @@
 <?php
 
+error_reporting(E_ALL & ~E_DEPRECATED);
+
 use App\Http\Controllers\Admin\BeritaController as AdminBeritaController;
 use App\Http\Controllers\Admin\DashboardController;
 // ====================
@@ -30,10 +32,13 @@ use App\Http\Controllers\User\StrukturalController as UserStrukturalController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
+use Illuminate\Support\Facades\Artisan;
+
 // storage link
 Route::get('/link', function () {
     Artisan::call('storage:link');
 });
+
 
 // ====================
 // User Routes (Frontend)

@@ -1,61 +1,84 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🏛 Sistem Informasi Manajemen Desa Pabuaran
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-## About Laravel
+Sistem Informasi Manajemen Desa Pabuaran adalah aplikasi berbasis web yang dirancang untuk memfasilitasi transparansi informasi publik dan mempermudah administrasi pelayanan bagi warga. Sistem ini terbagi menjadi dua antarmuka utama: portal publik (Frontend) untuk masyarakat dan panel kendali terintegrasi (Backend) untuk aparatur desa.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## ✨ Fitur Utama
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### 👥 Portal Publik (Frontend)
+Portal interaktif yang dapat diakses oleh masyarakat umum untuk mendapatkan informasi terkini:
+*   **Beranda & Profil Desa:** Menampilkan informasi umum, Sambutan Kepala Desa, Sejarah, serta Visi & Misi Desa Pabuaran.
+*   **Struktur Pemerintahan:** Visualisasi bagan kepengurusan desa dan susunan keanggotaan Badan Permusyawaratan Desa (BPD).
+*   **Katalog Potensi Desa:** Etalase digital sektor unggulan desa (BUMDes, UMKM, Pertanian, Perikanan, Peternakan, dan Koperasi).
+*   **Pusat Informasi & Berita:** Modul artikel dinamis untuk publikasi kegiatan dan pengumuman desa.
+*   **Pusat Layanan Warga:** Fasilitas unduh *template* surat pengantar resmi (Domisili, dll) dan panduan alur pengajuan proposal.
+*   **Statistik Demografi:** Dasbor visual angka statistik penduduk, kepala keluarga, dusun, posyandu, dan fasilitas umum lainnya.
 
-## Learning Laravel
+### ⚙️ Panel Admin (Backend)
+Sistem manajemen basis data (CMS) khusus untuk perangkat desa mengelola seluruh konten:
+*   **Keamanan:** Autentikasi halaman Login khusus Admin Desa.
+*   **Dashboard Terpusat:** Akses cepat ke berbagai modul manajemen utama.
+*   **Manajemen Struktural:** Fitur CRUD (Create, Read, Update, Delete) untuk mengelola data kepegawaian dan kepengurusan BPD.
+*   **Manajemen Berita & Publikasi:** Editor artikel untuk menulis dan mempublikasikan berita kegiatan desa.
+*   **Manajemen Layanan:** Pengelolaan berkas *template* surat warga dan pemantauan pengajuan proposal.
+*   **Manajemen Statistik & Slide:** Pembaruan data numerik demografi desa dan gambar *banner/slide* secara *real-time*.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+---
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## 💻 Tech Stack
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+*   **Framework:** Laravel (PHP 8.x)
+*   **Database:** MySQL
+*   **Frontend:** Bootstrap 5, HTML5, CSS3
+*   **Icons:** Bootstrap Icons
+*   **Database Tools:** TablePlus
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## 📸 Dokumentasi Antarmuka
 
-### Premium Partners
+### 🖥️ Portal Publik (Frontend)
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+| Halaman | Tampilan |
+| :--- | :--- |
+| **Beranda** | <img src="docs/Home%20Page.png" width="400"> |
+| **Visi & Misi** | <img src="docs/Visi%20%26%20Misi.png" width="400"> |
+| **Sejarah Desa** | <img src="docs/Sejarah%20Desa.png" width="400"> |
+| **Sambutan Kades** | <img src="docs/Sambutan%20Kepala%20Desa.png" width="400"> |
+| **Kepengurusan** | <img src="docs/Halaman%20Struktural.png" width="400"> |
+| **Potensi Desa** | <img src="docs/Potensi%20Desa.png" width="400"> |
+| **Berita Desa** | <img src="docs/Halaman%20Berita.png" width="400"> |
+| **Statistik** | <img src="docs/Statistik%20Penduduk.png" width="400"> |
+| **Template Surat** | <img src="docs/Tamplate%20Surat.png" width="400"> |
+| **Pengajuan Proposal**| <img src="docs/Tamplate%20Proposal.png" width="400"> |
 
-## Contributing
+### 🛠️ Panel Admin (Backend)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+| Modul | Tampilan |
+| :--- | :--- |
+| **Login Admin** | <img src="docs/Backend%20-%20Halaman%20Login%20Admin.png" width="400"> |
+| **Dashboard** | <img src="docs/Backend-%20Home%20Page.png" width="400"> |
+| **Manajemen Struktural** | <img src="docs/Backend%20-%20Data%20Struktural.png" width="400"> |
+| **Manajemen Berita** | <img src="docs/Backend%20-%20Halaman%20Managemen%20Berita.png" width="400"> |
+| **Manajemen Potensi** | <img src="docs/Backend%20-%20Halaman%20Pontensi%20Desa.png" width="400"> |
+| **Manajemen Statistik** | <img src="docs/Backend%20-%20Halaman%20Statistik.png" width="400"> |
+| **Template Surat** | <img src="docs/Backend%20-%20Halaman%20Surat.png" width="400"> |
+| **Pengajuan Proposal** | <img src="docs/Backend%20-%20Pengajuan%20Proposal.png" width="400"> |
+| **Manajemen Slide** | <img src="docs/Backend%20-%20Halaman%20Slide.png" width="400"> |
 
-## Code of Conduct
+---
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 🚀 Panduan Instalasi Lokal
 
-## Security Vulnerabilities
+Ikuti instruksi berikut untuk menjalankan proyek ini di lingkungan pengembangan lokal:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+1. **Kloning Repositori:**
+   ```bash
+   git clone [https://github.com/username-anda/web_desa.git](https://github.com/username-anda/web_desa.git)
+   cd web_desa
