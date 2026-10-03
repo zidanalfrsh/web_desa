@@ -80,5 +80,4 @@ Ikuti instruksi berikut untuk menjalankan proyek ini di lingkungan pengembangan 
 
 1. **Kloning Repositori:**
    ```bash
-   git clone [https://github.com/username-anda/web_desa.git](https://github.com/username-anda/web_desa.git)
-   cd web_desa
+   git clone [https://github.com/zidanalfrsh/web_desa.git]
